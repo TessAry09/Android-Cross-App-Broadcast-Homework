@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">B · 广播发送</string>
+    <string name="activity_sender_1_text">ANDROID / 跨应用广播实验</string>
+    <string name="activity_sender_2_text">发送广播</string>
+    <string name="activity_sender_3_text">APP B  /  独立安装的发送端</string>
+    <string name="activity_sender_4_text">发送给 App A 的消息</string>
+    <string name="activity_sender_send_message_hint">输入消息（最多 500 字）</string>
+    <string name="activity_sender_send_text">发送广播并重置 A →</string>
+    <string name="activity_sender_7_text">发送状态</string>
+    <string name="activity_sender_send_status_text">准备就绪</string>
+    <string name="activity_sender_9_text">显式有序广播 → A 保存消息并关闭活动 → B 收到回执 → 打开 A 的登录页</string>
+</resources>

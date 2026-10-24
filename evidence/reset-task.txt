@@ -1,0 +1,1 @@
+* Hist  #0: ActivityRecord{fc90372 u0 com.example.broadcast.receiver/.LoginActivity t32}

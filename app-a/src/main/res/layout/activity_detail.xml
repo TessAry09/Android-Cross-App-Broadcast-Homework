@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:focusableInTouchMode="true">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_1_text" android:textSize="12sp" android:textColor="#2563EB" android:layout_marginBottom="12dp" android:layout_marginTop="16dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_14_text" android:textSize="30sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_15_text" android:textSize="14sp" android:textColor="#63718A" android:layout_marginBottom="12dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/card" android:layout_marginTop="20dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_16_text" android:textSize="22sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" android:textStyle="bold" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_17_text" android:textSize="17sp" android:textColor="#2563EB" android:layout_marginBottom="12dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_18_text" android:textSize="16sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" />
+            <Button android:id="@+id/back_home" android:layout_width="match_parent" android:layout_height="56dp" android:text="@string/activity_detail_back_home_text" android:textSize="16sp" android:textColor="#FFFFFF" android:backgroundTint="#2563EB" android:layout_marginTop="12dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/card" android:layout_marginTop="20dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_20_text" android:textSize="18sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_detail_21_text" android:textSize="16sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

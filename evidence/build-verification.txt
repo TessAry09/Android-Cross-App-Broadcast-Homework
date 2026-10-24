@@ -1,0 +1,14 @@
+Build command: ./gradlew :app-a:assembleDebug :app-b:assembleDebug :app-a:lintDebug :app-b:lintDebug --offline --console=plain
+Date: 2026-10-24 (Asia/Shanghai)
+BUILD SUCCESSFUL
+Gradle 9.3.1 / AGP 9.1.1 / bundled JBR 25.0.3 / compileSdk=targetSdk=34 / minSdk=23
+No third-party runtime dependencies.
+app-a: 0 errors, 3 warnings
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-a/build.gradle:8: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-a/build.gradle:4: Warning: A newer version of compileSdk than 34 is available: 36 [GradleDependency]
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-a/src/main/AndroidManifest.xml:4: Warning: The attribute android:allowBackup is deprecated from Android 12 and higher and may be removed in future versions. Consider adding the attribute android:dataExtractionRules specifying an @xml resource which configures cloud backups and device transfers on Android 12 and higher. [DataExtractionRules]
+app-b: 0 errors, 4 warnings
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-b/build.gradle:8: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-b/build.gradle:4: Warning: A newer version of compileSdk than 34 is available: 36 [GradleDependency]
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-b/src/main/AndroidManifest.xml:7: Warning: The attribute android:allowBackup is deprecated from Android 12 and higher and may be removed in future versions. Consider adding the attribute android:dataExtractionRules specifying an @xml resource which configures cloud backups and device transfers on Android 12 and higher. [DataExtractionRules]
+/Users/tianxinrui/Desktop/大三上/Android/Android-Cross-App-Broadcast-Homework/app-b/src/main/res/layout/activity_sender.xml:9: Warning: Missing autofillHints attribute [Autofill]

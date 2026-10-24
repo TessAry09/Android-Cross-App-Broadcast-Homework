@@ -1,0 +1,3 @@
+* Hist  #2: ActivityRecord{6c39487 u0 com.example.broadcast.receiver/.DetailActivity t29}
+* Hist  #1: ActivityRecord{4bc079a u0 com.example.broadcast.receiver/.HomeActivity t29}
+* Hist  #0: ActivityRecord{7284b13 u0 com.example.broadcast.receiver/.LoginActivity t29}

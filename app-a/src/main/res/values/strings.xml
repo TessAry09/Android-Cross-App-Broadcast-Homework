@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">A · 活动重置</string>
+    <string name="activity_login_1_text">ANDROID / 跨应用广播实验</string>
+    <string name="activity_login_2_text">账号登录</string>
+    <string name="activity_login_3_text">APP A  /  01 LOGIN</string>
+    <string name="activity_login_4_text">演示账号</string>
+    <string name="activity_login_account_hint">请输入演示账号</string>
+    <string name="activity_login_6_text">演示密码</string>
+    <string name="activity_login_password_hint">请输入演示密码</string>
+    <string name="activity_login_show_password_text">显示演示密码</string>
+    <string name="activity_login_login_text">登 录 →</string>
+    <string name="activity_login_10_text">广播接收消息</string>
+    <string name="activity_login_message_text">尚未收到广播</string>
+    <string name="activity_login_received_time_text">等待接收</string>
+    <string name="activity_login_13_text">仅用于课程实验，请勿输入真实账号或密码。</string>
+    <string name="activity_detail_14_text">业务详情</string>
+    <string name="activity_detail_15_text">APP A  /  03 DETAIL</string>
+    <string name="activity_detail_16_text">已进入第三个 Activity</string>
+    <string name="activity_detail_17_text">LoginActivity → HomeActivity → DetailActivity</string>
+    <string name="activity_detail_18_text">现在按系统主页键，打开独立的 App B，输入消息并发送广播。</string>
+    <string name="activity_detail_back_home_text">返回功能首页</string>
+    <string name="activity_detail_20_text">验证目标</string>
+    <string name="activity_detail_21_text">A 自动回到登录页 账号、密码与消息持续保留 返回键无法进入旧的业务页面</string>
+    <string name="activity_home_22_text">功能首页</string>
+    <string name="activity_home_23_text">APP A  /  02 HOME</string>
+    <string name="activity_home_welcome_text">欢迎</string>
+    <string name="activity_home_25_text">登录成功。打开详情页，继续建立真实的 Activity 调用栈。</string>
+    <string name="activity_home_open_detail_text">打开详情页 →</string>
+    <string name="activity_home_27_text">当前调用栈</string>
+    <string name="activity_home_28_text">LoginActivity → HomeActivity</string>
+    <string name="activity_home_29_text">收到 B 的广播后，所有旧活动都会关闭，登录资料继续保留。</string>
+    <string name="welcome_account">欢迎，%1$s</string>
+</resources>

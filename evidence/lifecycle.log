@@ -1,0 +1,15 @@
+--------- beginning of main
+10-24 20:53:26.660  5443  5443 I BroadcastHomework: create LoginActivity
+10-24 20:53:40.465  5443  5443 I BroadcastHomework: create HomeActivity
+10-24 20:53:43.814  5443  5443 I BroadcastHomework: create DetailActivity
+10-24 20:53:56.283  5443  5443 I BroadcastHomework: finishAll count=3
+10-24 20:53:56.283  5443  5443 I BroadcastHomework: receiver persisted message; closed=3
+10-24 20:53:56.284  5443  5443 I BroadcastHomework: destroy LoginActivity
+10-24 20:53:56.302  5443  5443 I BroadcastHomework: destroy HomeActivity
+10-24 20:53:56.315  5443  5443 I BroadcastHomework: destroy DetailActivity
+10-24 20:53:56.360  5443  5443 I BroadcastHomework: create LoginActivity
+10-24 20:54:05.645  5443  5443 I BroadcastHomework: destroy LoginActivity
+10-24 20:54:06.163  5443  5443 I BroadcastHomework: create LoginActivity
+10-24 20:54:27.384  6179  6179 I BroadcastHomework: finishAll count=0
+10-24 20:54:27.385  6179  6179 I BroadcastHomework: receiver persisted message; closed=0
+10-24 20:54:27.436  6179  6179 I BroadcastHomework: create LoginActivity

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:focusableInTouchMode="true">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_1_text" android:textSize="12sp" android:textColor="#2563EB" android:layout_marginBottom="12dp" android:layout_marginTop="16dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_2_text" android:textSize="30sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_3_text" android:textSize="14sp" android:textColor="#63718A" android:layout_marginBottom="12dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/card" android:layout_marginTop="20dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_4_text" android:textSize="14sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/account" android:layout_width="match_parent" android:layout_height="56dp" android:hint="@string/activity_login_account_hint" android:inputType="text" android:singleLine="true" android:maxLength="80" android:importantForAutofill="no" android:textSize="18sp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_6_text" android:textSize="14sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/password" android:layout_width="match_parent" android:layout_height="56dp" android:hint="@string/activity_login_password_hint" android:inputType="textPassword" android:singleLine="true" android:maxLength="80" android:importantForAutofill="no" android:textSize="18sp" />
+            <CheckBox android:id="@+id/show_password" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/activity_login_show_password_text" />
+            <Button android:id="@+id/login" android:layout_width="match_parent" android:layout_height="56dp" android:text="@string/activity_login_login_text" android:textSize="16sp" android:textColor="#FFFFFF" android:backgroundTint="#2563EB" android:layout_marginTop="12dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/card" android:layout_marginTop="20dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_10_text" android:textSize="18sp" android:textColor="#1C2942" android:layout_marginBottom="12dp" android:textStyle="bold" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_message_text" android:textSize="18sp" android:textColor="#2563EB" android:layout_marginBottom="12dp" android:id="@+id/message" android:textIsSelectable="true" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_received_time_text" android:textSize="12sp" android:textColor="#63718A" android:layout_marginBottom="12dp" android:id="@+id/received_time" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_login_13_text" android:textSize="12sp" android:textColor="#63718A" android:layout_marginBottom="12dp" android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>

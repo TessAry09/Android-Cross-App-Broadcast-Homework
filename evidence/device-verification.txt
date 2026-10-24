@@ -1,0 +1,15 @@
+Device: Android 14 / API 34
+SCREENSHOT screenshots/01-login.png
+SCREENSHOT screenshots/02-home.png
+SCREENSHOT screenshots/03-detail.png
+PASS actual task stack: Login -> Home -> Detail (3 Activity records)
+SCREENSHOT screenshots/04-sender.png
+PASS reset: retained account/password, exact broadcast message, only Login in A task
+SCREENSHOT screenshots/05-reset.png
+PASS receiver log: finishAll count=3; all three old Activities destroyed
+PASS Back: no old Home/Detail and A no longer resumed
+PASS reset: retained account/password, exact broadcast message, only Login in A task
+PASS message remains visible when A is reopened
+PASS reset: retained account/password, exact broadcast message, only Login in A task
+PASS background process death: manifest receiver restarted A, new message replaced old
+ALL CHECKS PASSED
